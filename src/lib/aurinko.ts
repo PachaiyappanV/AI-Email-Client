@@ -1,4 +1,4 @@
-"server";
+"use server";
 import { auth } from "@clerk/nextjs/server";
 export const getAurinkoAuthUrl = async (
   serviceType: "Google" | "Office365",
